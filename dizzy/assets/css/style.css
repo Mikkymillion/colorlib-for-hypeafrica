@@ -1,0 +1,644 @@
+body {
+  font-family: "open sans",sans-serif;
+  font-size: 14px;
+}
+
+p {
+  /*color: #848484;*/
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.929;
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{text-decoration: none;}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 27px 70px;
+  background-color: #00d089;
+  font-size: 14px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  line-height: 15px;
+}
+
+.btn-1:hover {
+  background-color: rgba(0,66,255,0.85);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+
+.nav {
+  margin-left: 200px;
+}
+
+.nav-item {
+  color: #333;
+  font-size: 15px;
+  padding: 40px 24px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 15px;
+  position: relative;
+  z-index: 1;
+  transition: 0.6s;
+}
+
+.nav-item a:hover {
+  border-bottom: 1px solid #00d089;
+  transition: 5s;
+}
+
+.social_icon {
+  margin-right: 20px;
+}
+.social_icon i:hover{
+  color: #00d089;
+  transition: 0.6s;
+  }
+  .social_icon i {
+    color: #fff;
+    margin-left: 28px;
+  }
+
+.nav-item {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.main-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.main-menu .navbar {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.navscroll{
+  position: fixed;
+  top:0;
+  background: #00d089;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  padding: 50px;
+  transition: 0.6s;
+  text-align: center;
+  }
+
+  .navscroll>#scrolling-icons>i:hover{
+    color:  rgba(0,66,255,0.85);
+    transition: 0.5s;
+  }
+
+
+.nav-link, .navbar-brand {
+  color: #fff !important;
+}
+
+.banner-text {
+  margin-top: -100px;
+  margin-right: 500px;
+  margin-left: 150px;
+  padding: 30px;
+}
+
+.banner-text p {
+  font-size: 28px!important;
+  font-weight: 500;
+  /* margin-left: -27px; */
+}
+
+.banner-text h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 65px;
+}
+
+.main-button {
+  background-color: #00d089!important;
+  border-radius: 35px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.main-button:hover {
+  background-color: #0042ff!important;
+}
+
+#client-logo {
+  background-color: #f8faff;
+}
+
+#scrollling-icons > .container {
+  overflow-x: hidden;
+}
+
+.about-text {
+  padding: 50px;
+}
+
+.play-btn {
+  border-radius: 25px;
+}
+
+.play-btn > i {
+  font-size: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+#projects{
+  position: relative;
+  padding: 140px 0px;
+
+}
+
+.section_tittle {
+    padding-top: 25px;
+  margin-bottom: 80px;
+}
+.section_tittle p{
+margin-left: 0;
+}
+.section_tittle h2 {
+  font-weight: 600;
+ font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+}
+#projects .project_menu_item .active {
+  color: #00d089;
+}
+#projects .project_menu_item ul li {
+  display: inline-block;
+  color: #83868c;
+  /* font-weight: 500; */
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 0 22px;
+  cursor: pointer;
+}
+
+#projects .more_btn_iner {
+  display: inline-block;
+  border: 1px solid #00d089;
+  padding: 15px 40px;
+  color: #00d089;
+  font-size: 15px;
+  text-transform: capitalize;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#projects .more_btn_iner:hover{
+  background-color: #00d089;
+  color: #fff;
+}
+
+#projects .single_our_project {
+  position: relative;
+  z-index: 1;
+}
+
+#projects .single_our_project .single_offer img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+#projects .single_our_project .single_offer .hover_text {
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #fff;
+  padding: 20px 30px;
+  left: 15px;
+  right: 15px;
+}
+
+#projects .single_our_project .single_offer .hover_text p {
+  color: #848484;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#projects .single_our_project .single_offer .hover_text a{
+  color: #000;
+  text-decoration: none;
+}
+#projects .single_our_project:hover .hover_text{
+  opacity: 1;
+
+}
+
+
+#testimonials {
+  background: rgba(0, 066, 255, 0.85), url(../../assets/img/tech/applekey.jpg);
+}
+
+
+#marquee {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 20vh;
+  color: #eee;
+  overflow: hidden!important;
+  position: relative!important;
+}
+
+.marquee-content {
+  list-style: none;
+  padding: 20px;
+  height: 50%;
+  display: flex;
+  animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150vw);
+  }
+}
+
+.marquee-content li {
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  width: 20vw;
+  font-size: 5rem;
+  white-space: nowrap;
+}
+
+.marquee-content li img {
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+  color: #eee;
+}
+
+.about-card-text {
+  padding: 45px 40px;
+  border: 1px solid #e8e9eb;
+  /* -webkit-transition: 0.6s; */
+  transition: 0.1s;
+}
+.about-card-text:hover {
+  color: #fff;
+  background: #0042ff;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+
+
+ span {
+  font-size: 16px;
+  margin-bottom: 21px;
+  display: inline-block;
+  color: #00d089;
+  line-height: 16px;
+}
+
+.about-card-text h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.about-sect-1 {
+  margin-bottom: 120px;
+}
+
+.about-text {
+  text-align: left;
+  padding: 10px 10px;
+  margin: 75px 0;
+}
+
+#about-us{
+  margin-top: 20px;
+}
+.about-card-text p {
+  /* color: #7f7f7f; */
+  line-height: 1.8;
+  font-size: 15px;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.about-cards-text ul {
+  margin-top: 23px;
+}
+
+.about-pic {
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  width: 750px;
+}
+
+.about-text p, h2 {
+  text-align: left;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  line-height: 29px;
+  padding: 0;
+  margin: -25px auto;
+}
+
+.about-card-2 {
+  margin-top: 18px;
+}
+
+.about-card-3 {
+  margin-top: 30px;
+}
+
+#deal {
+  background-image: linear-gradient(rgba(0,066,225,0.85), rgba(0,066,225,0.85)), url(../../assets/img/tech/applekey.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef;
+  height: 450px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#deal h2 {
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 75px auto auto 75px;
+}
+
+#deal a {
+  
+  margin: auto 570px ;
+}
+
+
+
+.icon-control-play {
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #0042ff;
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 5px;
+  margin-right: 20px;
+}
+
+
+
+
+#testimonials {
+  margin: 150px auto;
+}
+
+#testimonials > h2, #testimonials > p {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.review_part {
+  position: relative;
+  z-index: 1;
+}
+
+.review_part .animation_icon_3 {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  z-index: -1;
+}
+
+@media (max-width: 991px) {
+  .review_part .animation_icon_3 {
+    display: none;
+  }
+}
+
+.review_part .review_part_text .client_info {
+  padding-bottom: 35px;
+  display: flow-root;
+}
+
+@media (max-width: 991px) {
+  .review_part .review_part_text .client_info {
+    padding-bottom: 15px;
+  }
+}
+
+.review_part .review_part_text .client_info img {
+  height: 90px;
+  width: 90px;
+  float: left;
+  margin-right: 30px;
+}
+
+@media (max-width: 991px) {
+  .review_part .review_part_text .client_info img {
+    margin-right: 23px;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.review_part .review_part_text .client_info h4 {
+  margin-top: 19px;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .review_part .review_part_text .client_info h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+}
+
+.review_part .review_part_text .client_info p {
+  margin-top: 0px;
+}
+
+.review_part .review_part_text p {
+  font-weight: 400i;
+  line-height: 1.929;
+}
+
+.review_part .owl-dots {
+  text-align: center;
+  padding-top: 65px;
+}
+
+@media (max-width: 576px) {
+  .review_part .owl-dots {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .review_part .owl-dots {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .review_part .owl-dots {
+    padding-top: 30px;
+  }
+}
+
+.review_part .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #e9eef2;
+  margin: 0 5px;
+  border: 1px solid #0042ff;
+}
+
+.review_part .owl-dots button.owl-dot.active {
+  background-color: #0042ff;
+}
+
+.review_part .owl-dots button.owl-dot:focus {
+  outline: #cfb579;
+}
+
+.review_part .singler_eview_part {
+  padding: 50px 40px 42px;
+  border: 1px solid #ebf0ff;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: auto 25px 25px auto;
+/*  margin-bottom: 25px;
+*/}
+
+.review_part .singler_eview_part:hover {
+  box-shadow: 0px 10px 50px 0px rgba(221, 221, 221, 0.35);
+  border: 1px solid #fff;
+}
+
+@media (max-width: 991px) {
+  .review_part .singler_eview_part {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about_review {
+    margin-top: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.creative {
+  display: flex;
+  margin-top: 58px;
+  align-items: center;
+  font-size: 16px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.creative a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.creative a:hover {
+  color: #000;
+  font-size: 16px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer-area {
+  background-color: #fff;
+  padding: 100px 0 20px;
+  position: relative;
+}
+
+.footer-area .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.footer-area h2, h4{
+  font-weight: 600;
+}
