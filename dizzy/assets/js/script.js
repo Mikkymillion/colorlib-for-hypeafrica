@@ -14,25 +14,24 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
 
  
 
-// $(document).ready(
-//   function(){
-//     $(window).scroll(function(){
-//     var scroll = $(window).scrollTop();
-//     if (scroll > 300) {
-//       $(".mainmenu").css('background' , 'blue')
-//           }
-//     else {
-//       $(".black").css('background' , '#555');
-//     }
-//   })
+// Using jquery
+// var navbar=document.querySelector('main_menu');
+// window.onscroll = function () {
+//   if (window.pageYOffset>0) {this.navbar.classList.add('menu_fixed animated fadeInDown')}
+//   else{
+//     this.navbar.classList.remove('menu_fixed animated fadeInDown')
+//   }
+// };
 
-//   })
 
-var navbar=document.querySelector('nav');
-window.onscroll = function () {
-  if (window.pageYOffset>0) {this.navbar.classList.add('navscroll')}
-  else{
-    this.navbar.classList.remove('navscroll')
+  $(window).scroll(function () {
+    var window_top = $(window).scrollTop() + 1;
+    if (window_top > 50) {
+      $('.main_menu').addClass('menu_fixed animated fadeInDown');
+    } else {
+      $('.main_menu').removeClass('menu_fixed animated fadeInDown');}
   }
-};
+  )
 
+
+ 
